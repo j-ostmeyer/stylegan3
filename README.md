@@ -36,6 +36,10 @@ Run `pretrain.sh`. The job-scripts are called automatically.
 
 Once the GAN is trained, images can be produced using the `generate_images.sh` script, or automatically for all trained GANs using the `generate_all.sh` script.
 
+### Calculating metrics
+
+Usually the metrics required would be calculated during the training already, but they can be calculated afterwards as well, using `calculate_metrics.sh`.
+
 
 ## Release notes
 
