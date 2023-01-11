@@ -22,7 +22,9 @@ Source the `modules.sh` file.
 
 ### Training from scratch
 
-Assuming there are paintings to train from in the `../wikiarts_split/` directory (or any other, modify in `pretrain.sh`), a new GAN can be trained using the `pretrain.sh` and the resective `job_script_[...].sh` scripts.
+Assuming there are paintings to train from in the `../wikiarts_split/` directory (or any other, modify in `pretrain.sh`), a new GAN can be trained using the `gen_data_set.sh`, `pretrain.sh` and the resective `job_script_[...].sh` scripts.
+
+Before first training raw images have to be converged to `stylegan`'s prefered format using running `gen_data_set.sh`.
 
 Set the size of the pictures (quadratic format `size x size`) in `pretrain.sh`.
 
