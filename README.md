@@ -12,6 +12,14 @@ For business inquiries, please visit our website and submit the form: [NVIDIA Re
 
 ## Usage for specifically selected datasets (by Johann Ostmeyer)
 
+### Before first use
+
+You might want to create a new `python` environment and install the packages as in `pip-install.sh`. With the configurations on BARKLA as of the 11.1.23 this is not necessary.
+
+### Before running on BARKLA
+
+Source the `modules.sh` file.
+
 
 
 ## Release notes
