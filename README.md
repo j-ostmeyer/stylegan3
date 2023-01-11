@@ -20,11 +20,15 @@ You might want to create a new `python` environment and install the packages as 
 
 Source the `modules.sh` file.
 
+### Adjusting picture format
+
+Paintings might be provided in arbitrary shape, resolution and file format. `adjust_pics.sh` (check details in file) converts all to the desired quadratic shape with required resolution in PNG format.
+
 ### Training from scratch
 
-Assuming there are paintings to train from in the `../wikiarts_split/` directory (or any other, modify in `pretrain.sh`), a new GAN can be trained using the `gen_data_set.sh`, `pretrain.sh` and the resective `job_script_[...].sh` scripts.
+Assuming there are paintings to train from in the `../wikiarts_split/` directory (or any other, modify in `pretrain.sh`), a new GAN can be trained using the `gen_data_set.sh`, `pretrain.sh` and the respective `job_script_[...].sh` scripts.
 
-Before first training raw images have to be converged to `stylegan`'s prefered format using running `gen_data_set.sh`.
+Before first training raw images have to be converged to `stylegan`'s preferred format using running `gen_data_set.sh`.
 
 Set the size of the pictures (quadratic format `size x size`) in `pretrain.sh`.
 
