@@ -40,6 +40,10 @@ Once the GAN is trained, images can be produced using the `generate_images.sh` s
 
 Usually the metrics required would be calculated during the training already, but they can be calculated afterwards as well, using `calculate_metrics.sh`.
 
+### Refining GANs on smaller data sets
+
+After a GAN has been trained on say portraits in general, it can be refined to produce only portraits by a particular artist. This doesn't always work well though. It is implemented in `posttrain.sh`.
+
 
 ## Release notes
 
