@@ -10,6 +10,10 @@ Abstract: *We observe that despite their hierarchical convolutional nature, the 
 
 For business inquiries, please visit our website and submit the form: [NVIDIA Research Licensing](https://www.nvidia.com/en-us/research/inquiries/)
 
+## Usage for specifically selected datasets (by Johann Ostmeyer)
+
+
+
 ## Release notes
 
 This repository is an updated version of [stylegan2-ada-pytorch](https://github.com/NVlabs/stylegan2-ada-pytorch), with several new features:
