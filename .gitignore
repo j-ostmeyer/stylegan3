@@ -3,6 +3,10 @@
 !job_script_st2-256.sh
 calculate_metrics_[0-9].sh
 
+README.pdf
+*.mp4
+
+.cache
 __pycache__
 out
 
