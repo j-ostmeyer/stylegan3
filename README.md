@@ -20,6 +20,15 @@ You might want to create a new `python` environment and install the packages as 
 
 Source the `modules.sh` file.
 
+### Training from scratch
+
+Assuming there are paintings to train from in the `../wikiarts_split/` directory (or any other, modify in `pretrain.sh`), a new GAN can be trained using the `pretrain.sh` and the resective `job_script_[...].sh` scripts.
+
+Set the size of the pictures (quadratic format `size x size`) in `pretrain.sh`.
+
+Hyperparameters are set to reasonable values in the `job_script_st2-[...].sh` files as are (found by trial and error), but can be adjusted as seen fit.
+
+Run `pretrain.sh`. The job-scripts are called automatically.
 
 
 ## Release notes

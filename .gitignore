@@ -1,4 +1,5 @@
 *-256.sh
+*-history*-1024.sh
 !job_script_st2-256.sh
 calculate_metrics_[0-9].sh
 
