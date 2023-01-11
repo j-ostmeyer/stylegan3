@@ -44,6 +44,10 @@ Usually the metrics required would be calculated during the training already, bu
 
 After a GAN has been trained on say portraits in general, it can be refined to produce only portraits by a particular artist. This doesn't always work well though. It is implemented in `posttrain.sh`.
 
+### Translating metrics outputs into CSV
+
+Some programs (e.g. gnuplot) can't handle JSON files, so `json2csv.sh` translates the metrics to CSV format.
+
 
 ## Release notes
 
