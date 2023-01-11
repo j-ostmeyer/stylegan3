@@ -1,0 +1,9 @@
+*-256.sh
+!job_script_st2-256.sh
+calculate_metrics_[0-9].sh
+
+__pycache__
+out
+
+*.swp
+*~
