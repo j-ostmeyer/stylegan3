@@ -32,6 +32,10 @@ Hyperparameters are set to reasonable values in the `job_script_st2-[...].sh` fi
 
 Run `pretrain.sh`. The job-scripts are called automatically.
 
+### Generating the images
+
+Once the GAN is trained, images can be produced using the `generate_images.sh` script, or automatically for all trained GANs using the `generate_all.sh` script.
+
 
 ## Release notes
 
